@@ -5,56 +5,40 @@
     box-sizing: border-box;
 }
 
+/* Updated background and text colors */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
+    background-color: #f0f0f0; /* light gray */
+    color: #2c3e50; /* dark gray for text */
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #3498db; /* blue */
     color: white;
     padding: 20px 0;
     text-align: center;
 }
 
-header h1 {
+h1 {
     font-size: 2.5em;
-}
-
-header p {
-    font-size: 1.2em;
-}
-
-section {
-    padding: 40px 0;
+    margin-bottom: 0;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.2em;
     margin-bottom: 20px;
-}
-
-.about p, .projects p {
-    font-size: 1.1em;
-    line-height: 1.6;
+    color: #2980b9; /* slightly darker blue */
 }
 
 .project {
     background-color: #fff;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px; /* more rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background-color: #333;
+    background-color: #2c3e50; /* dark gray */
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -62,4 +46,6 @@ footer {
 
 footer p {
     font-size: 1.1em;
+}
+
 }
